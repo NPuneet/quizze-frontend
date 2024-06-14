@@ -21,7 +21,7 @@ const Signup = () => {
       return alert("Password and confirm password should be same");
     }
     try {
-      const response = await fetch("http://localhost:4000/api/auth/register", {
+      const response = await fetch("https://quizze-1.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

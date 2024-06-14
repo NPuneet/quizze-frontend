@@ -16,7 +16,7 @@ const Login=()=>{
             return alert("All fields are required");
         }
         try {
-            const response = await fetch("http://localhost:4000//api/auth/login", {
+            const response = await fetch("https://quizze-1.onrender.com/api/auth/login", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
